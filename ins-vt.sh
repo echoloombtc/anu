@@ -63,7 +63,7 @@ cat> /etc/v2ray/config.json << END
           ]
         },
         "wsSettings": {
-          "path": "/SantzXteam",
+          "path": "/KennXV",
           "headers": {
             "Host": ""
           }
