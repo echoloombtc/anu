@@ -34,12 +34,12 @@ cat>/etc/v2ray/$user-none.json<<EOF
       {
       "v": "2",
       "ps": "${user}",
-      "add": ".santzx.com",
+      "add": ".KennXV",
       "port": "${none}",
       "id": "${uuid}",
       "aid": "0",
       "net": "ws",
-      "path": "/SantzXteam",
+      "path": "/KennXV",
       "type": "none",
       "host": "${domain}",
       "tls": "none"
@@ -67,4 +67,4 @@ echo -e "================================="
 echo -e "link none TLS  : ${vmesslink2}"
 echo -e "================================="
 echo -e "Expired On     : $exp"
-echo -e "AutoScript By SantzX Vpn Store"
+echo -e "Kenn Hiroyuki"

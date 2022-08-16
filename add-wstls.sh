@@ -33,12 +33,12 @@ cat>/etc/v2ray/$user-tls.json<<EOF
       {
       "v": "2",
       "ps": "${user}",
-      "add": ".santzx.com",
+      "add": ".KennXV",
       "port": "${tls}",
       "id": "${uuid}",
       "aid": "0",
       "net": "ws",
-      "path": "/SantzXteam",
+      "path": "KennXV",
       "type": "none",
       "host": "${domain}",
       "tls": "tls"
@@ -66,4 +66,4 @@ echo -e "================================="
 echo -e "link TLS       : ${vmesslink1}"
 echo -e "================================="
 echo -e "Expired On     : $exp"
-echo -e "AutoScript By SantzX Vpn Store"
+echo -e "Kenn Hiroyuki"
