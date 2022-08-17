@@ -32,7 +32,6 @@ wget https://raw.githubusercontent.com/kenDevXD/anu/main/ins-vt.sh && chmod +x i
 wget https://raw.githubusercontent.com/kenDevXD/anu/main/ipsec.sh && chmod +x ipsec.sh && screen -S ipsec ./ipsec.sh
 #install Set-br
 wget https://raw.githubusercontent.com/kenDevXD/anu/main/set-br.sh && chmod +x set-br.sh && ./set-br.sh
-https://raw.githubusercontent.com/kenDevXD/anu/main/xolpanel.sh && chmod +x xolpanel.sh && ./xolpanel.sh
 
 rm -f /root/ssh-vpn.sh
 rm -f /root/sstp.sh
@@ -43,7 +42,6 @@ rm -f /root/ins-vt.sh
 rm -f /root/ipsec.sh
 rm -f /root/set-br.sh
 rm -f /root/cf.sh
-rm -f /root/xolpanel.sh
 cat <<EOF> /etc/systemd/system/autosett.service
 [Unit]
 Description=autosetting
@@ -67,7 +65,7 @@ clear
 echo " "
 echo "Installation has been completed!!"
 echo " "
-echo "=================================-SantzX Vpn Store-===========================" | tee -a log-install.txt
+echo "=====KennXV=====" | tee -a log-install.txt
 echo "" | tee -a log-install.txt
 echo "--------------------------------------------------------------------------------" | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
