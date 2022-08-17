@@ -109,6 +109,8 @@ echo -e " 28.  Pointing Bug"
 
 echo -e " 29.  Status Tunneling"
 
+echo -e " 30.  Bot SSh"
+
 echo -e "\e[32m══════════════════════════════════════════\e[m"
 
 echo -e " x.   Exit From Putty / JuiceSSH / Termux"
@@ -294,6 +296,10 @@ cfh
 29)
 
 running
+
+30)
+
+xolpanel
 
 ;;
 
