@@ -12,7 +12,7 @@ ver=$VERSION_ID
 
 #detail nama perusahaan
 country=ID
-state=Boyolali
+state=Jakarta
 locality=Indonesia
 organization=www.aixxy.me
 organizationalunit=www.aixxy.me
