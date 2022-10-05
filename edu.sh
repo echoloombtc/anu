@@ -65,8 +65,8 @@ chmod +x /usr/local/bin/edu-ovpn
 # Installing Service Ovpn Websocket
 cat > /etc/systemd/system/edu-ovpn.service << END
 [Unit]
-Description=Ovpn Websocket By SantzX Vpn Store
-Documentation=https://t.me/s4nX4z
+Description=Ovpn Websocket By KennXV
+Documentation=https://t.me/aixxy7
 After=network.target nss-lookup.target
 
 [Service]
