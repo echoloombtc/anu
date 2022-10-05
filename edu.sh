@@ -10,7 +10,7 @@ chmod +x /usr/local/bin/edu-ssh
 cat > /etc/systemd/system/edussh-nontls.service << END
 [Unit]
 Description=Ssh Websocket By Kenn Hiroyuki
-Documentation=https://t.me/s4nX4z
+Documentation=https://t.me/aixxy7
 After=network.target nss-lookup.target
 
 [Service]
@@ -33,8 +33,8 @@ systemctl restart edussh-nontls
 # Installing Service
 cat > /etc/systemd/system/edussh-tls.service << END
 [Unit]
-Description=Ssh Websocket By SantzX Vpn Store
-Documentation=https://t.me/s4nX4z
+Description=Ssh Websocket By Kenn XV
+Documentation=https://t.me/aixxy7
 After=network.target nss-lookup.target
 
 [Service]
@@ -94,4 +94,4 @@ echo -e "PORT SSH NONTLS : 80"
 echo -e "PORT SSH TLS    : 443"
 echo -e "PORT OVPN WS B  : 8080"
 echo -e "==============================="
-echo -e "Script By SantzX Vpn Store"
+echo -e "Script By Kenn Hiroyuki"
