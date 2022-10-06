@@ -8,8 +8,8 @@ apt install jq curl -y
 DOMAIN=santzx.com
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
 SUB_DOMAIN=${sub}.aixxy.me
-CF_ID=santosomedhy67@gmail.com
-CF_KEY=ef6dbd9c2b43d0c1dbc4eb2e266ef9849cdba
+CF_ID=zkendev@gmail.com
+CF_KEY=c2cfab62fee64eb70f18ad1db931907e132d0
 set -euo pipefail
 IP=$(wget -qO- ipinfo.io/ip);
 echo "Updating DNS for ${SUB_DOMAIN}..."
