@@ -14,10 +14,10 @@ ver=$VERSION_ID
 country=ID
 state=Jakarta
 locality=Indonesia
-organization=www.aixxy.me
-organizationalunit=www.aixxy.me
-commonname=www.aixxy.me
-email=admin@aixxy.id
+organization=www.aixxy7.com
+organizationalunit=www.aixxy7.com
+commonname=www.aixxy7.com
+email=admin@aixxy7.com
 
 # simple password minimal
 wget -O /etc/pam.d/common-password "https://raw.githubusercontent.com/kenDevXD/anu/main/password"
