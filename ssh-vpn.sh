@@ -12,12 +12,12 @@ ver=$VERSION_ID
 
 #detail nama perusahaan
 country=ID
-state=Jakarta
-locality=Indonesia
-organization=www.aixxy7.com
-organizationalunit=www.aixxy7.com
-commonname=www.aixxy7.com
-email=admin@aixxy7.com
+state=Indonesia
+locality=Jakarta
+organization=AIXXY.ME
+organizationalunit=AIXXY.CODES
+commonname=KENN
+email=admin@aixxy.codes
 
 # simple password minimal
 wget -O /etc/pam.d/common-password "https://raw.githubusercontent.com/kenDevXD/anu/main/password"
